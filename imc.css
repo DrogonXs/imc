@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+body{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(beyond.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+h1{
+    font-family: "beyond";
+    color:  rgb(0, 0, 0);
+    text-shadow: 2px 2px 1px red;
+}
+
+p{
+    font-family: "beyond";
+    font-size: 25px;
+    text-shadow: 2px 2px 1px red;
+    
+}
+
+.imc{
+    max-width: 360px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 1px;
+    margin-left: 550px;
+    background-color: rgba(255, 255, 255, 0.507);
+   
+   
+}
+
+.cont{
+    height: 50px;
+    font-size: 20px;
+    margin: 15px 25px;
+}
+
+#peso{
+    font-size: 20px;
+    margin: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    background-color: silver;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 20px -3px black;
+}
+
+#altura{
+    font-size: 20px;
+    margin: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    background-color: silver;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 20px -3px black;
+}
+
+@font-face{
+    font-family: 'beyond';
+    src: url(Beyond\ Mars.ttf) format("opentype"),url(Beyond\ Mars.ttf)
+    format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+label{
+ font-family: "beyond";
+ text-shadow: 2px 2px 1px red;
+}
+
+button{
+
+color: red;
+font-family: "beyond";
+background-color: black;
+border-radius: 15px;
+
+
+}
+
+
+
+
+
+
